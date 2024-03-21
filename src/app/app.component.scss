@@ -1,0 +1,29 @@
+.main-header {
+  background: linear-gradient(
+    135deg,
+    #8e44ad,
+    #3498db
+  ); /* Purple to light blue */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-title a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+.nav-links a.active {
+  color: #ffffff;
+}
+

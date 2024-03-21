@@ -1,0 +1,21 @@
+<div class="register-container">
+  <h1>Registration</h1>
+  <form (ngSubmit)="register()" #registrationForm="ngForm">
+    <nz-form-item>
+        <nz-form-control [nzErrorTip]="'Please input your username!'">
+          <input nz-input placeholder="Username" name="username" [(ngModel)]="username" required />
+        </nz-form-control>
+      </nz-form-item>
+      <nz-form-item>
+        <nz-form-control [nzErrorTip]="'Please input your email!'">
+          <input nz-input type="email" placeholder="Email" name="email" [(ngModel)]="email" required />
+        </nz-form-control>
+      </nz-form-item>
+      <nz-form-item>
+        <nz-form-control [nzErrorTip]="'Please input your password!'">
+          <input nz-input type="password" placeholder="Password" name="password" [(ngModel)]="password" required />
+        </nz-form-control>
+      </nz-form-item>
+    <button nz-button nzType="primary" type="submit">Register</button>
+  </form>
+</div>

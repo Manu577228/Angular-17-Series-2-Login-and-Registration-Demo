@@ -1,1 +1,55 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Racing Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* General form styling */
+form {
+  max-width: 400px;
+  margin: 0 auto; /* Center the forms */
+}
+
+nz-form-item {
+  margin-bottom: 20px; /* Space between form items */
+}
+
+nz-form-control {
+  width: 100%; /* Make input fields take up full container width */
+}
+
+nz-form-control[nzErrorTip] {
+  /* Style for error state (adjust as needed) */
+  border-color: #ff4d4f; /* Example error color */
+}
+
+/* Styling for the container */
+.login-registration-container {
+  text-align: center;
+}
+
+.login-registration-container h1 {
+  margin-bottom: 10px;
+}
+
+/* Responsive Styling */
+@media (min-width: 768px) {
+  /* Adjust breakpoint as needed */
+  .login-registration-container {
+    display: flex;
+    justify-content: space-around; /* Place forms side-by-side */
+  }
+}
+
+@media (min-width: 768px) {
+  // Adjust breakpoint as needed
+  .login-registration-container {
+    display: flex;
+    justify-content: space-around;
+  }
+}
